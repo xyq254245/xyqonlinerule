@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./custom_spider.jar;md5;df45c696fb4205ec560367fe49078faf",
+    "spider": "./custom_spider.jar;md5;7a603add8d78a8e761e6529a5f47ccf4",
     "lives": [
         {
           "name": "本地live文件",
