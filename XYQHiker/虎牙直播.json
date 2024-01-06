@@ -30,7 +30,7 @@
   "分类片单图片": "sScreenshot",
   "分类片单副标题": "sNick",
   "分类片单链接加前缀": "http://8.210.232.168/php/huya.php?id=",
-  "分类片单链接加后缀": "#GD线路$https://www.goodiptv.club/huya/'input'",
+  "分类片单链接加后缀": "#GD线路$https://www.goodiptv.club/huya/'input'#线路3$http://43.128.40.42:198/虎牙直播/huya.php?id='input'",
   "搜索请求头参数": "User-Agent$手机",
   "搜索链接": "https://search.cdn.huya.com/?m=Search&do=getSearchContent&plt=m&q={wd}&uid=0&app=11&v=4&typ=-5&start=0@&rows=40",
   "POST请求数据": "",
