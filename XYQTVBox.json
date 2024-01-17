@@ -6,7 +6,7 @@
           "name": "本地live文件",
           "type":"0",
           "pass": true,
-          "url":"clan://XYQTVBox/live.txt",
+          "url":"http://127.0.0.1:9978/file/XYQTVBox/live.txt",
           "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
           "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
