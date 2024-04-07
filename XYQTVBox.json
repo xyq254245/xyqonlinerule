@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./custom_spider.jar;md5;5dbe95399010cd30706b01aa5624dbe0",
+    "spider": "./custom_spider.jar;md5;7cc1e6adbf8e604bfd5b632608806066",
     "lives": [
         {
           "name": "本地live文件",
@@ -69,7 +69,7 @@
         {"key":"csp_Bili短剧","name":"🐞哔哩短剧","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/Bili短剧.json"},
         {"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
         //XYQ规则区
-        {"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
+        //{"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
         {"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
         
         //直播规则区
