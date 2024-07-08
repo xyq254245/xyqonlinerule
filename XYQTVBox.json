@@ -108,13 +108,110 @@
         {"host": "www.agemys.cc","rule": ["cdn-tos","obj/tos-cn"]},
         {"host": "www.sharenice.net","rule": ["http.*?/play.{0,3}\\?[^url]{2,8}=.*","qianpailive.com","vid="]},
         //非凡，量子，索尼，暴风
-        {"name":"暴风","hosts":["bfzy","bfbfvip"],"regex":["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
-        {"name":"量子","hosts":["vip.lz","hd.lz",".cdnlz"],"regex":["17.19","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-        {"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["17.99","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+","#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"]},
-        {"name":"索尼","hosts":["suonizy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+","#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"]},
-        {"name":"快看","hosts":["kuaikan"],"regex":["#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-        {"name":"海外看","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","10.85"]},
-        
+        {
+        "name": "暴风",
+        "hosts": [
+            "bfzy",
+            "bfbfvip",
+            "bfengbf"
+        ],
+        "regex": [
+            "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
+        ]
+    },
+    {
+        "name": "量子",
+        "hosts": [
+            "vip.lz",
+            "hd.lz",
+            ".cdnlz"
+        ],
+        "regex": [
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "17.19"
+        ]
+    },
+    {
+        "name": "非凡",
+        "hosts": [
+            "vip.ffzy",
+            "hd.ffzy",
+            "super.ffzy"
+        ],
+        "regex": [
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
+            "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
+            "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
+            "17.99",
+            "14.45"
+        ]
+    },
+    {
+        "name": "索尼",
+        "hosts": [
+            "suonizy"
+        ],
+        "regex": [
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
+            "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts"
+        ]
+    },
+    {
+        "name": "快看",
+        "hosts": [
+            "kuaikan"
+        ],
+        "regex": [
+            "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        ]
+    },
+    {
+        "name": "leshiyun",
+        "hosts": [
+            "leshiyuncdn"
+        ],
+        "regex": [
+            "15.92"
+        ]
+    },
+    {
+        "name": "1080zyk",
+        "hosts": [
+            "high24-playback",
+            "high20-playback"
+        ],
+        "regex": [
+            "16.63"
+        ]
+    },
+    {
+        "name": "555DM",
+        "hosts": [
+            "cqxfjz"
+        ],
+        "regex": [
+            "10.56"
+        ]
+    },
+    {
+        "name": "海外看",
+        "hosts": [
+            "haiwaikan"
+        ],
+        "regex": [
+            "10.0099",
+            "10.3333",
+            "16.0599",
+            "8.1748",
+            "10.85"
+        ]
+    },
         {"name":"磁力广告","hosts":["magnet"],"regex":["更多","社 區","x u u","最 新","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}
     ],
     "ijk":[
