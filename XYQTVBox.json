@@ -77,6 +77,7 @@
         {"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
         {"key": "csp_XYQHiker_七新影视","name":"七新影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/七新影视.json"},
         {"key": "csp_XYQHiker_可可影视","name":"可可影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/可可影视.json"},
+        {"key":"柚子资源","name":"柚子资源","type":0,"api":"https://api.yzzy-api.com/inc/api.php","searchable":1,"quickSearch":1},
         
         //直播规则区
         //{"key": "csp_XYQBiu_88看球","name":"88看球(XYQ)","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./XYQBiu/88看球.json"},
@@ -100,8 +101,6 @@
         //{"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
         //{"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
         {"name":"-PJY-","type":0,"url":"https://jx.playerjy.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
-        
-        
     ],
     "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
     "rules":[
@@ -188,10 +187,13 @@
         "name": "1080zyk",
         "hosts": [
             "high24-playback",
-            "high20-playback"
+            "high20-playback",
+            "yzzy.play",
+            "yzzy-dy"
         ],
         "regex": [
-            "16.63"
+            "16.63",
+            "17.66"
         ]
     },
     {
