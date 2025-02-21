@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://wp.upx8.com/api.php",
-    "spider": "./custom_spider.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca",
+    "spider": "./custom_spider.jar;md5;bd914beda62a45baafb2419a40ec6806",
     "lives": [
         {
           "name": "本地live文件",
@@ -11,10 +11,10 @@
           "logo": "https://epg.iill.top/logo/{name}.png"
         },
         {
-          "name": "XHCH",
+          "name": "Guovin",
           "type":"0",
           "pass": true,
-          "url": "http://110.185.171.226:93/dsch/ipv6/chlist.txt",
+          "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
           "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
           "logo": "https://epg.v1.mk/logo/{name}.png"
         }
@@ -80,6 +80,8 @@
         {"key": "csp_XYQHiker_星辰影院","name":"⭐️星辰影院(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/星辰影院.json"},
         {"key": "csp_XYQHiker_可可影视","name":"☕️可可影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/可可影视.json"},
         {"key": "csp_XYQHiker_爱看影视","name":"👀爱看影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/爱看影视.json"},
+        {"key": "csp_XYQHiker_八号影视","name":"八号影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/八号影视.json"},
+        {"key": "csp_XYQHiker_来看点播","name":"来看点播(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/来看点播.json"},
         {"key":"柚子资源","name":"🍊柚子资源","type":0,"api":"https://api.yzzy-api.com/inc/api.php","searchable":1,"quickSearch":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","台湾剧","韩国剧","欧美剧","香港剧","泰国剧","日本剧","福利","记录片","动画片","海外剧","倫理片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","搞笑","音乐","影视","汽车","短剧大全","预告片","预告片","体育"]},
         
         //直播规则区
