@@ -75,7 +75,7 @@
     "选集链接加前缀": "http://www.7xdy.com",
     "选集链接加后缀": "",
     "分析MacPlayer": "0",
-    "是否开启手动嗅探": "0",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos",
+    "是否开启手动嗅探": "1",
+    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos#pt=m3u8#obj/tos-#video/tos#mime_type=video#x-oss-signature=",
     "手动嗅探视频链接过滤词": ".html#=http"
 }
