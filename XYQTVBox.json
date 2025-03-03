@@ -6,15 +6,23 @@
           "name": "本地live文件",
           "type":"0",
           "pass": true,
-          "url":"http://127.0.0.1:9978/file/XYQTVBox/live.txt",
+          "url":"./live.txt",
           "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",     
           "logo": "https://epg.iill.top/logo/{name}.png"
         },
         {
-          "name": "Guovin",
+          "name": "BMCH",
           "type":"0",
           "pass": true,
-          "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+          "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+          "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
+          "logo": "https://epg.v1.mk/logo/{name}.png"
+        },
+        {
+          "name": "Tianmu",
+          "type":"0",
+          "pass": true,
+          "url": "https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
           "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
           "logo": "https://epg.v1.mk/logo/{name}.png"
         }
@@ -91,6 +99,11 @@
         {"key":"DRJS_虎牙","name":"虎牙直播(JS)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/虎牙直播.js","searchable": 0,"quickSearch": 0,"filterable": 0},
         {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/虎牙直播.json"},
         {"key": "csp_XYQHiker_斗鱼直播","name": "🐠斗鱼直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/斗鱼直播.json"}
+        //点击示例
+        //document.getElementById('EaKWQVrB').click()
+        //document.getElementsByClassName('swal-button swal-button--confirm')[0].click()
+        //document.getElementsByTagName('button')[0].click()
+        
         
     ],
     "parses": [
