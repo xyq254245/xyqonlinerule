@@ -150,8 +150,9 @@
         ],
         "regex": [
             "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-            "17.19"
+            "#EXTINF.*?\\s+.*?08646.*?\\.ts",
+            "17.19",
+            "19.63"
         ]
     },
     {
