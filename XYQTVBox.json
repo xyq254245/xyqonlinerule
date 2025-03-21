@@ -221,6 +221,15 @@
         ]
     },
     {
+        "name": "ikun",
+        "hosts": [
+            "bfikuncdn"
+        ],
+        "regex": [
+            "#EXTINF.*?\\s+.*?XR8pDxQk.*?\\.ts"
+        ]
+    },
+    {
         "name": "555DM",
         "hosts": [
             "cqxfjz"
