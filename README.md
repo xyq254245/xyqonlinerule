@@ -1,5 +1,8 @@
 # 香雅情在线规则
-https://gh.llkk.cc/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+
+# 多线
+https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/multilinks.json
 
 使用建议，电视/盒子系统版本在安卓9以上，
 WebView版本在117以上以达到嗅探的最大兼容性。
