@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://wp.upx8.com/api.php",
-    "spider": "./custom_spider.jar;md5;cd97fd7124b8b96359a5173c902534b9",
+    "spider": "./custom_spider.jar;md5;0b7110539dd2d2899efe1091d9d6b9cd",
     "lives": [
         {
           "name": "本地live文件",
@@ -25,7 +25,13 @@
           "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
           "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
           "logo": "https://epg.v1.mk/logo/{name}.png"
-        }
+        },
+        {
+	      "name": "fanmingming",
+	      "type":"0",
+        "pass": true,
+	      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u"
+    	}
         
     ],
     "sites": [
