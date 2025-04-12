@@ -105,6 +105,8 @@
         {"key": "csp_XYQHiker_瓜子影院","name":"瓜子影院(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/瓜子影视.json"},
         {"key": "csp_XYQHiker_八号影视","name":"8️⃣八号影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/八号影视.json"},
         {"key": "csp_XYQHiker_来看点播","name":"⛅️来看点播(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/来看点播.json"},
+        {"key":"drpy_js_金牌","name":"金牌影视[js]","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/金牌影视.js"},
+        
         {"key":"柚子资源","name":"🍊柚子资源","type":0,"api":"https://api.yzzy-api.com/inc/api.php","searchable":1,"quickSearch":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","台湾剧","韩国剧","欧美剧","香港剧","泰国剧","日本剧","福利","记录片","动画片","海外剧","倫理片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","搞笑","音乐","影视","汽车","短剧大全","预告片","预告片","体育"]},
         
         //直播规则区
@@ -165,7 +167,7 @@
             ".cdnlz"
         ],
         "regex": [
-            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?66667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
             "#EXTINF.*?\\s+.*?08646.*?\\.ts",
             "17.19",
             "19.63"
@@ -176,11 +178,12 @@
         "hosts": [
             "vip.ffzy",
             "hd.ffzy",
-            "super.ffzy"
+            "super.ffzy",
+            "cachem3u8.2s0"
         ],
         "regex": [
-            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            //"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?66667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
             "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
             "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
             "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
