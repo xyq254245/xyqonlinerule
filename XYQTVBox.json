@@ -241,7 +241,8 @@
             "bfikuncdn"
         ],
         "regex": [
-            "#EXTINF.*?\\s+.*?XR8pDxQk.*?\\.ts"
+            "#EXTINF.*?\\s+.*?XR8pDxQk.*?\\.ts",
+            "#EXTINF.*?\\s+.*?p5XQill8.*?\\.ts"
         ]
     },
     {
