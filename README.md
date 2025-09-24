@@ -1,6 +1,8 @@
 # 香雅情在线规则
 https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
 
+https://proxy.pipers.cn/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+
 # 多线
 https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/multilinks.json
 
