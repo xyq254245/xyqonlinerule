@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://wp.upx8.com/api.php",
-    "spider": "./custom_spider.jar;md5;39f47cafa594a9d606bff5b0ac71b4a8",
+    "spider": "./custom_spider.jar;md5;3a1edc7bf8ca3dcd37307fe0789fabab",
     "lives": [
         {
           "name": "本地live文件",
@@ -113,7 +113,8 @@
         //{"key": "csp_Yj1211","name": "📡JustLive","type": 3,"api": "csp_Yj1211","playerType":1,"searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"DRJS_虎牙","name":"虎牙直播(JS)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/虎牙直播.js","searchable": 0,"quickSearch": 0,"filterable": 1},
         {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./XYQHiker/虎牙直播.json"},
-        {"key": "csp_XYQHiker_斗鱼直播","name": "🐠斗鱼直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./XYQHiker/斗鱼直播.json"}
+        {"key": "csp_XYQHiker_斗鱼直播","name": "🐠斗鱼直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./XYQHiker/斗鱼直播.json"},
+        {"key":"csp_Djuu","name":"🎧DJ悠悠","type":3,"api":"csp_Djuu","filterable":1,"quickSearch":1,"searchable":1}
         //点击示例
         //document.getElementById('EaKWQVrB').click()
         //document.getElementsByClassName('swal-button swal-button--confirm')[0].click()
