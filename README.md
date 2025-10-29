@@ -3,6 +3,8 @@ https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlineru
 
 https://proxy.pipers.cn/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
 
+https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+
 # 多线
 https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/multilinks.json
 
@@ -14,9 +16,6 @@ https://www.123pan.com/s/alSeVv-lGO0A.html
 
 # 哔哩Cookie设置文件(本地文件)
 XYQTVBox/bilicookie.txt
-
-# 阿里token设置文件(本地文件)
-XYQTVBox/alitoken.txt
 
 # 本地直播设置文件(本地文件)
 XYQTVBox/live.txt
