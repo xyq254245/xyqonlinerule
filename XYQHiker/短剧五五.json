@@ -16,17 +16,17 @@
     "首页片单链接加前缀": "https://www.duanju55.com",
     "首页片单链接加后缀": "",
     "分类起始页码": "1",
-    "分类链接": "https://www.duanju55.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+    "分类链接": "https://www.duanju55.com/index.php/vod/show/{class}id/{cateId}/page/{catePg}.html",
     "分类名称": "全部",
     "分类名称替换词": "1",
-    "筛选数据": {},
-    //"筛选数据": "ext",
+    //"筛选数据": {},
+    "筛选数据": "ext",
     //{cateId}
     "筛选子分类名称": "",
     "筛选子分类替换词": "",
     //{class}
-    "筛选类型名称": "",
-    "筛选类型替换词": "*",
+    "筛选类型名称": "都市&赘婿&战神&古代&言情&历史&脑洞&玄幻&搞笑&喜剧&萌宝&神豪&奇幻&脑洞&强者&回归&甜宠&豪门&恩怨&复仇&神医&马甲&亲情&人物&无敌&重生&闪婚&职场&商战&穿越&年代&权谋&高手&下山&悬疑&家国&虐恋&古装&时空&之旅&仙侠&欢喜&冤家&传承&觉醒&情感&逆袭&家庭",
+    "筛选类型替换词": "class/都市/&class/赘婿/&class/战神/&class/古代/&class/言情/&class/历史/&class/脑洞/&class/玄幻/&class/搞笑/&class/喜剧/&class/萌宝/&class/神豪/&class/奇幻/&class/脑洞/&class/强者/&class/回归/&class/甜宠/&class/豪门/&class/恩怨/&class/复仇/&class/神医/&class/马甲/&class/亲情/&class/人物/&class/无敌/&class/重生/&class/闪婚/&class/职场/&class/商战/&class/穿越/&class/年代/&class/权谋/&class/高手/&class/下山/&class/悬疑/&class/家国/&class/虐恋/&class/古装/&class/时空/&class/之旅/&class/仙侠/&class/欢喜/&class/冤家/&class/传承/&class/觉醒/&class/情感/&class/逆袭/&class/家庭/",
     //{area}
     "筛选地区名称": "",
     "筛选地区替换词": "*",
