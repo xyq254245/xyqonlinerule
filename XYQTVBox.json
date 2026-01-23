@@ -251,6 +251,17 @@
         ]
     },
     {
+        "hosts": [
+            "dytt-hot"
+        ],
+        "name": "dytt",
+        "regex": [
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.800000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3\\.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.566667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        ]
+    },
+    {
         "name": "ikun",
         "hosts": [
             "bfikuncdn"
