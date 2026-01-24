@@ -14,7 +14,7 @@
           "name": "BMCH",
           "type":"0",
           "pass": true,
-          "url": "https://proxy.gitwarp.com/https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+          "url": "https://gh.halonice.com/https:/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
           "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
           "logo": "https://epg.v1.mk/logo/{name}.png"
         },
@@ -25,13 +25,7 @@
           "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
           "epg": "https://epg.v1.mk/json?ch={name}&date={date}",     
           "logo": "https://epg.v1.mk/logo/{name}.png"
-        },
-        {
-	      "name": "fanmingming",
-	      "type":"0",
-        "pass": true,
-	      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u"
-    	}
+        }
         
     ],
     "sites": [
