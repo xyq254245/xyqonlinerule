@@ -10,11 +10,11 @@
     "首页片单列表数组规则": "li",
     "首页片单是否Jsoup写法": "1",
     "分类起始页码": "1",
-    "分类链接": "https://www.bbfun.cc/vodshow/id/{cateId}/page/{catePg}.html[firstPage=https://www.bbfun.cc/vodshow/id/{cateId}.html]",
+    "分类链接": "https://www.bbfun.cc/vodshow/{by}id/{cateId}/page/{catePg}.html[firstPage=https://www.bbfun.cc/vodshow/id/{cateId}.html]",
     "分类名称": "新番&番剧&剧场",
     "分类名称替换词": "uCCCCS&0CCCCS&HCCCCS",
-    "筛选数据": {},
-    //"筛选数据": "ext",
+    //"筛选数据": {},
+    "筛选数据": "ext",
     //{cateId}
     "筛选子分类名称": "",
     "筛选子分类替换词": "",
@@ -32,7 +32,7 @@
     "筛选语言替换词": "*",
     //{by}
     "筛选排序名称": "时间&人气&评分",
-    "筛选排序替换词": "time&hits&score",
+    "筛选排序替换词": "by/time/&by/hits/&by/score/",
     "分类截取模式": "1",
     "分类列表数组规则": ".hl-vod-list&&li",
     "分类片单是否Jsoup写法": "1",
