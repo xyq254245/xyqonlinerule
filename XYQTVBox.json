@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://wp.upx8.com/api.php",
-    "spider": "./custom_spider.jar;md5;82ed8c34c7655ea24e8c01e51a74e017",
+    "spider": "./custom_spider.jar;md5;fb4e1fdd8a0b516d45d70519e9325c88",
     "lives": [
         {
           "name": "本地live文件",
