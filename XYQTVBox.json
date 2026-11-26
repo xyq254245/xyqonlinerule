@@ -87,7 +87,7 @@
         //XYQ规则区
         {"key": "csp_XYQHiker_农民影视","name":"🧑🏻农民影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
         //{"key": "csp_XYQHiker_剧圈圈","name":"🌟剧圈圈(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/剧圈圈.json","click":"document.getElementById('playleft').children[0].contentWindow.document.getElementById('start').click()"},
-        {"key": "csp_XYQHiker_骚火电影VIP","name": "🔥骚火电影VIP(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/骚火电影VIP.json"},
+        {"key": "csp_XYQHiker_骚火电影VIP","name": "🔥骚火电影VIP(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/骚火电影VIP.json","click":"document.getElementsByClassName(\"play_btn\")[0].click()"},
         //{"key": "csp_XYQHiker_爱看影视","name":"👀爱看影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/爱看影视.json"},
         {"key": "csp_XYQHiker_爱看电影","name":"爱看电影(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/爱看电影.json"},
         {"key": "csp_XYQHiker_低端影视","name":"低端影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/低端影视.json"},
